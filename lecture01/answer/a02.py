@@ -8,5 +8,5 @@ my_list = [1, 2, 4, 8, 16, 32, 64]
 
 my_list.append(3)
 my_list.remove(4)
-new_list = my_list[-4:-1]
+new_list = my_list[-3:]
 print(new_list)
