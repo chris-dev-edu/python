@@ -5,7 +5,7 @@
 ### Dictionary(딕셔너리)
 - Dictionary는 key(키)와 value(값)의 쌍으로 이루어진 자료구조다
 - 중괄호`{}`를 사용하여 생성하며, 각각의 key와 value는 콜론`:`으로 구분된다
-- Dictionary는 순서가 없고, 각 key는 유일해야 합니다.
+- Dictionary는 순서가 없고, 각 key는 유일해야 한다
 
 #### Dictionary 생성 및 접근
 ```python
@@ -33,6 +33,9 @@ del my_dict['banana']
 ```python
 # Dictionary 길이 확인(key-value 쌍의 수)
 length = len(my_dict)
+
+# Dictionary 내에 key가 존재하는지 유무
+contains = my_key in my_dict
 
 # Dictionary의 모든 key 확인
 keys = my_dict.keys()
