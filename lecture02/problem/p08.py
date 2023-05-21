@@ -5,34 +5,9 @@
 """
 
 students = [
-    {
-        'name': 'Amy',
-        'age': 15,
-        'grade': 2,
-        'score': 'A',
-    },
-    {
-        'name': 'Bob',
-        'age': 16,
-        'grade': 3,
-        'score': 'C',
-    },
-    {
-        'name': 'Chris',
-        'age': 14,
-        'grade': 1,
-        'score': 'C',
-    },
-    {
-        'name': 'Jenny',
-        'age': 14,
-        'grade': 1,
-        'score': 'A',
-    },
-    {
-        'name': 'Paul',
-        'age': 16,
-        'grade': 3,
-        'score': 'B',
-    },
+    {'name': 'Amy', 'age': 15, 'grade': 2, 'score': 'A'},
+    {'name': 'Bob', 'age': 16, 'grade': 3, 'score': 'C'},
+    {'name': 'Chris', 'age': 14, 'grade': 1, 'score': 'C'},
+    {'name': 'Jenny', 'age': 14, 'grade': 1, 'score': 'A'},
+    {'name': 'Paul', 'age': 16, 'grade': 3, 'score': 'B'},
 ]
