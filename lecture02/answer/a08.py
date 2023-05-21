@@ -11,3 +11,19 @@ students = [
     {'name': 'Jenny', 'age': 14, 'grade': 1, 'score': 'A'},
     {'name': 'Paul', 'age': 16, 'grade': 3, 'score': 'B'},
 ]
+
+remove_list = []
+
+for i in range(5):
+    students[i]['age'] += 1
+    students[i]['grade'] += 1
+    if students[i]['grade'] == 4:
+        remove_list.append(i)
+    elif students[i]['score'] == 'A':
+        print(students[i]['name'])
+
+remove_list.sort(reverse=True)
+for index in remove_list:
+    del students[index]
+
+print(students)
