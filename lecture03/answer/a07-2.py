@@ -34,3 +34,22 @@ idol = {
     '블랙핑크': ['jenny', 'jisu', 'risa'],
     '에스파': ['karina', 'winter'],
 }
+
+for name, score in scores.items():
+    result = ""
+
+    group = ""
+    for idol_name, idol_members in idol.items():
+        if name in idol_members:
+            group = idol_name
+
+    if score >= 90:
+        result = 'A'
+    elif score >= 80:
+        result = 'B'
+    elif score >= 70:
+        result = 'C'
+    else:
+        result = 'F'
+
+    print(f'{group} 멤버 {name}학생의 성적은 {result} 입니다.')

@@ -13,3 +13,8 @@
 
 x = int(input("x 입력:"))
 y = int(input("y 입력:"))
+
+for j in range(y):
+    for i in range(1, x+1):
+        print("%3d" % (x*j + i), end="")
+    print()

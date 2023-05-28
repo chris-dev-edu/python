@@ -6,3 +6,11 @@ numbers 리스트 내 element 들의 총 합을 출력하시오.
 """
 
 numbers = [12, "KCD", 15, 756, "AB", 22, 34, 20]
+
+sum = 0
+
+for number in numbers:
+    if type(number) == int:
+        sum += number
+
+print(sum)

@@ -13,3 +13,15 @@ while True:
         numbers.append(int(number))
     except ValueError:
         break
+
+sum = 0
+[1, 2, 3, 4, 5]
+for i in range(len(numbers)-1, -1, -1):
+    if numbers[i] > 0:
+        sum += numbers[i]
+    elif numbers[i] <0:
+        continue
+    else:
+        break
+
+print(sum)
