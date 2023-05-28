@@ -7,10 +7,10 @@ sum을 출력하시오.
 
 numbers = []
 
-number = 0
 while True:
     number = input("정수를 입력하세요(\"숫자가 아닌경우 더이상 입력을 받지 않습니다\")")
-    if type(number) == int:
+    try:
         numbers.append(int(number))
-    else:
+    except ValueError:
         break
+print(numbers)
