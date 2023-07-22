@@ -1,4 +1,4 @@
-# power-shell or Terminal
+# power-shell(Windows) or Terminal(Mac)
 ```bash
 ls # 폴더 리스트 확인
 
