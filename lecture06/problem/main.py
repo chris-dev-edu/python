@@ -44,7 +44,8 @@ while menu != 9:
                 elif option == 3:
                     memo.remove_memo()
                 option = 0
-
+            else:
+                option = memo.show_option()
         menu = 0
     else:
         menu = show_menu()
