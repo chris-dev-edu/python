@@ -11,7 +11,11 @@ def show_menu():
     print('┃ [9] 끝내기')
     print('┖━━━━━━━━━━━━━━━━━━━━━━')
 
-    return int(input('입력: '))
+    try:
+        selected_menu = int(input('입력: '))
+        return selected_menu
+    except (ValueError, TypeError):
+        print("1, 2, 9 중의 수를 입력해주세요")
 
 while menu != 9:
     if menu == 1:
@@ -46,6 +50,7 @@ while menu != 9:
                 option = 0
             else:
                 option = memo.show_option()
+
         menu = 0
     else:
         menu = show_menu()
